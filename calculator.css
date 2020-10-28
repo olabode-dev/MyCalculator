@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    overflow: hidden;
+}
+
+body{
+    background: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#logo{
+    color: black;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    margin: 20px auto;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(bg.jpg);
+    background-size: cover;
+}
+#calc{
+    width: 340px;
+    height: 75vh;
+    background-color: #0a334e;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px 0 rgb(25, 26, 95), 0 6px 20px 0 rgb(134, 102, 59);  
+}
+.operator, .number{
+    cursor: pointer;
+}
+#result{
+    background: rgba(240, 230, 218, 0.822);
+    height: 105px;
+    margin-bottom: 10px;
+}
+#keyboard{
+    height: 450px;
+    
+}
+
+#history{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    font-weight: 10;
+    font-size: 1em;
+    text-align: right;
+    padding-right: 10px;
+
+}
+
+#output{
+    font-size: 1.3em;
+    padding-bottom: 10px;
+    text-align: right;
+    margin-bottom: 5px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    font-size: 30px;
+    
+}
+
+.operator, .number, .empty{
+    width: 2.5rem;
+    height: 2.7em;
+    margin: 6%;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty{
+    background-color: #eaedef;
+}
+
+.operator{
+    background-color: rgb(179, 71, 146);
+}
+
+.number:active, .operator:active{
+    font-size: 13.5px;
+}
+
+.operator:focus, .number:focus{
+    outline: 0;
+}
+.number:active{
+    background-color:  rgb(180, 89, 154);
+}
+.operator:active{
+  background-color: #94989bec;  
+}
+#backspace, #clear, #percent{
+    background-color: #94989bec;
+}
+
+
