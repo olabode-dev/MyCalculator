@@ -98,8 +98,14 @@ body{
 .operator:active{
   background-color: #94989bec;  
 }
-#backspace, #clear, #percent{
+#backspace, #clear, .percent{
     background-color: #94989bec;
+}
+
+
+
+.period{
+    background-color: #eaedef;
 }
 
 
