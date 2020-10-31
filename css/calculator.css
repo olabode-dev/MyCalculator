@@ -41,8 +41,7 @@ body{
     margin-bottom: 10px;
 }
 #keyboard{
-    height: 450px;
-    
+    height: 450px;    
 }
 
 #history{
@@ -77,6 +76,26 @@ body{
     font-size: 15px;
 }
 
+@media screen and (max-width: 450px){
+    
+    #calc {
+        width: 340px;
+        height: 550px;
+    }
+    .container {
+        width: 100vw;
+        height: 100vh;
+        margin: 0%;
+    }
+}
+@media screen and (max-width:320px){
+body{
+    background-color: crimson;
+}
+}
+
+
+
 .number, .empty{
     background-color: #eaedef;
 }
@@ -101,11 +120,7 @@ body{
 #backspace, #clear, .percent{
     background-color: #94989bec;
 }
-
-
-
 .period{
     background-color: #eaedef;
 }
-
 
